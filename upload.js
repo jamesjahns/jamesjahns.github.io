@@ -1,3 +1,5 @@
+const SERVER_IP = 'ec2-52-14-37-216.us-east-2.compute.amazonaws.com';
+
 document.getElementById("uploadbutton").onclick = uploadPDF;
 document.getElementById("samplebutton").onclick = function() {
     loadJSON(SampleJSON);
@@ -33,7 +35,7 @@ function uploadPDF() {
 
     //request serverside processing
     let request = $.ajax({
-        url: 'http://127.0.0.1:8080/processPDF',
+        url: 'http://' + SERVER_IP + '/processPDF',
         type: 'POST',
         data: formData,
         processData: false,
