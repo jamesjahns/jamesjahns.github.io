@@ -40,6 +40,7 @@ function uploadPDF() {
         data: formData,
         processData: false,
         contentType: false,
+        timeout: 30000, //30 seconds
         success: function (data) {
             loadJSON(JSON.parse(data));
             stopWaiting();
