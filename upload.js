@@ -35,7 +35,7 @@ function uploadPDF() {
 
     //request serverside processing
     let request = $.ajax({
-        url: 'http://' + SERVER_IP + '/processPDF',
+        url: 'https://' + SERVER_IP + '/processPDF',
         type: 'POST',
         data: formData,
         processData: false,
