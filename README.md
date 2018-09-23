@@ -7,7 +7,7 @@ This project was done for learning/experience and as such it will be a little ro
 Features:
 - Python backend (using Django, running on AWS EC2 instance) that uses OpenCV to process the PDF
   - Converts PDF to image
-  - Splits image base don musical staves
+  - Splits image based on musical staves
   - Locates the notes in the image and sends the image/note locations to the frontend
 - Javascript frontend
   - Allows user to highlight notes on the image, then label with a chord name
