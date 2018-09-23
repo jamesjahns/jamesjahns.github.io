@@ -1,4 +1,4 @@
-const SERVER_IP = 'ec2-52-14-37-216.us-east-2.compute.amazonaws.com';
+const SERVER_IP = 'ec2-18-222-205-67.us-east-2.compute.amazonaws.com';
 
 document.getElementById("uploadbutton").onclick = uploadPDF;
 document.getElementById("samplebutton").onclick = function() {
