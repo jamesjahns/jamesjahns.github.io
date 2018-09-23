@@ -35,12 +35,11 @@ function uploadPDF() {
 
     //request serverside processing
     let request = $.ajax({
-        url: 'https://' + SERVER_IP + '/processPDF',
+        url: 'http://' + SERVER_IP + '/processPDF',
         type: 'POST',
         data: formData,
         processData: false,
         contentType: false,
-        timeout: 300000, //300 seconds
         success: function (data) {
             loadJSON(JSON.parse(data));
             stopWaiting();
