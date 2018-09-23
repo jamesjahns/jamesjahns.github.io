@@ -13,4 +13,5 @@ Features:
   - Allows user to highlight notes on the image, then label with a chord name
   - Colors based on chord type and scale degree of chord
   - Colors based on current key and will change accordingly if the user changes the scale
+  - Bootstrap-based design, allowing for PDF preview, modal windows, etc.
   
