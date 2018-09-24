@@ -2,6 +2,8 @@
 
 GitHub Pages Website for harmonynotes.tk, a simple web app that allows users to upload PDFs of sheet music and highlight them for harmonic analysis.
 
+To try it for yourself, if you don't have a PDF handy, there is a "sample PDF" option after you click "upload PDF".
+
 This project was done for learning/experience and as such it will be a little rough around the edges.
 
 Features:
