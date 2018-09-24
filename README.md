@@ -1,4 +1,4 @@
-# jamesjahns.github.io (also hosted at [harmonynotes.tk](harmonynotes.tk))
+# jamesjahns.github.io (also hosted at [harmonynotes.tk](http://harmonynotes.tk/) )
 
 ## GitHub Pages Website for harmonynotes.tk, a simple web app that allows users to upload PDFs of sheet music and highlight them for harmonic analysis.
 
