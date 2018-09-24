@@ -1,6 +1,6 @@
-# jamesjahns.github.io
+# jamesjahns.github.io (also hosted at [harmonynotes.tk](harmonynotes.tk))
 
-GitHub Pages Website for harmonynotes.tk, a simple web app that allows users to upload PDFs of sheet music and highlight them for harmonic analysis.
+## GitHub Pages Website for harmonynotes.tk, a simple web app that allows users to upload PDFs of sheet music and highlight them for harmonic analysis.
 
 To try it for yourself, if you don't have a PDF handy, there is a "sample PDF" option after you click "upload PDF".
 
