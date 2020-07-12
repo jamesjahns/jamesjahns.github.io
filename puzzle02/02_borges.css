@@ -1,0 +1,44 @@
+.pic {
+    margin: 0 auto 3% auto;
+    padding: 0 10%;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: slategray;
+    border-radius: 30px;
+}
+a {
+    color: lightgray;
+}
+img {
+    height: 35vh;
+}
+h2 {
+    margin: 0 auto;
+    width: 30%;
+    font-size: 3em;
+    background-color: slategrey;
+    border-radius: 30px 30px 0 0;
+    text-align: center;
+}
+#etcetera {
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.p1 {
+    background-color: blue;
+}
+
+h1 {
+    font-size: 3em;
+
+    text-align: center;
+    background-color: lightgray;
+}
+
+body {
+    background-color: darkslategray;
+    font-family: 'Courier New', Courier, monospace;
+}

@@ -1,0 +1,92 @@
+body {
+    background-color: #E0E0E0;
+    background-image: url("./paper_bg.jpg");
+    font-family: 'Bookman Old Style', 'Times New Roman', serif;
+}
+
+#header {
+    background-color: #D0D0D0;
+    padding: 50px;
+    padding-top: 10px;
+    margin: 0;
+    margin-bottom: 50px;
+}
+
+#header a {
+    font-family: 'Courier New', Courier, monospace;
+}
+#header p {
+    font-size: 1.5em;
+    font-style: italic;
+    margin: 0 auto;
+    text-align: center;
+}
+h1 {
+    width: 100%;
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.torn {
+    background-image: url("./torn_edges.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 100%;
+    padding: 30px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+}
+.A {
+    transform: rotate(1deg);
+}
+.B {
+    transform: rotate(-1deg);
+}
+.title {
+    background-image: 
+    linear-gradient(
+        rgba(0, 0, 0, 0.2), 
+        rgba(0, 0, 0, 0.2)
+      ),
+        url("./torn_edges.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 50%;
+    position: absolute;
+    left: 20px;
+    top: -40px;
+    padding: 10px;
+    
+}
+
+.A .title {
+    transform: rotate(-2deg);
+}
+.B .title {
+    transform: rotate(2deg);
+}
+
+.torn p {
+    font-size: 1.3em;
+    margin: 0;
+}
+
+.torn img {
+    height: 20vh;
+    margin: 10px;
+    border: 2px solid gray;
+
+}
+.item {
+    padding: 30px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

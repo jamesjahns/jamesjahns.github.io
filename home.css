@@ -1,0 +1,25 @@
+body {
+    color: lightgray;
+    background-color: teal;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.content {
+    background-color: darkslategray;
+    width: 50%;
+    margin: 30px auto;
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 2em;
+    text-align: center;
+}
+
+a {
+    color: lightgray;
+    font-size: 1.5em;
+    width: 100%;
+    text-align: center;
+}
