@@ -1,15 +1,18 @@
 body {
     color: lightgray;
-    background-color: teal;
+    background-color: rgb(25, 39, 39);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .content {
-    background-color: darkslategray;
+    background-color: rgb(45, 65, 65);
     width: 50%;
     margin: 30px auto;
     display: flex;
     justify-content: center;
+    align-content: center;
+    padding: 30px;
+    border-radius: 30px;
 }
 
 h1 {

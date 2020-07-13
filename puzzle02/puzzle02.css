@@ -1,0 +1,72 @@
+body {
+    background-color: darkslategray;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#header {
+    background-color: #D0D0D0;
+    padding: 50px;
+    padding-top: 10px;
+    margin: 0;
+    margin-bottom: 50px;
+}
+#header h1 {
+    text-align: center;
+    font-size: 2em;
+}
+#header p {
+    text-align: center;
+    font-size: 1.5em;
+    font-style: italic;
+}
+
+#content {
+    background-color: #D0D0D0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80vw;
+    margin: auto;
+    padding: 60px;
+}
+
+#content p {
+    font-style: italic;
+}
+
+#content a {
+    font-size: 2em;
+    color: black;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 1.5em;
+    text-align: center;
+    font-weight: bold;
+    padding: 0;
+    display: block;
+    color: #353535;
+}
+
+#vs {
+    background-color: rgb(31, 51, 51);
+    padding: 20px 0;
+    border-radius: 20px;
+    border: 3px solid white;
+    background-image: url("vs_bg.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#wilkins {
+    background-image: url("vs_bg_g.png");
+}
+
+#borges {
+    background-image: url("vs_bg_o.png");
+}
+
+.flipped {
+    transform: scale(-1,1);
+}

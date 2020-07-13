@@ -1,0 +1,41 @@
+body {
+    background-color: darkslategray;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.trainer {
+    width: 50vw;
+    height: 20vh;
+    background-color: gainsboro;
+    border-radius: 20px;
+    margin: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.trainer img {
+    height: 70%;
+}
+.trainer p {
+    font-size: 1.5em;
+}
+
+h1 {
+    font-size: 3em;
+
+    text-align: center;
+    background-color: lightgray;
+}
+
+a {
+    color: lightgray;
+}
