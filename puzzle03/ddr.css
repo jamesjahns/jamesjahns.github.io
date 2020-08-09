@@ -1,0 +1,101 @@
+body {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    background-color: black;
+    font-family: 'Open Sans', sans-serif;
+}
+img {
+    image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: crisp-edges;
+}
+
+.hint {
+    position: fixed;
+    top: 40vh;
+    width: auto;
+}
+.hint p {
+    color: white;
+    font-size: 3em;
+    text-align: center;    
+}
+.float-left {
+    left: 60px;
+}
+.float-right {
+    right: 60px;
+}
+
+.spacer {
+    height: 100vh;
+}
+.game-area {
+    position: relative;
+    background: rgb(5,0,93);
+    background: linear-gradient(90deg, rgba(5,0,93,1) 0%, rgba(9,9,111,1) 20%,rgba(9,9,111,1) 80%, rgba(5,0,93,1) 100%);
+    width: 1000px;
+}
+
+.ddr-row {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    column-width: 64px;
+    justify-items: center;
+    grid-auto-rows: auto;
+    
+    margin-top: -64px;
+
+    height: 128px;
+}
+
+.ddr-row > img {
+    z-index: 1;
+}
+
+.measure {
+    border-top: 10px double rgba(0, 0, 255, 0.226);
+    width: 80%;
+    height: 1px;
+    margin: auto;
+    position: relative;
+    top: 5px;
+}
+.outline-row {
+    position: fixed;
+    width: 1000px;
+    margin-top: 30px;
+    z-index: 10;
+}
+
+.left {
+    grid-column: 1;
+    width: 128px;
+    transform: rotate(180deg);
+}
+.down {
+    grid-column: 2;
+    width: 128px;
+    transform: rotate(90deg);
+}
+.up {
+    grid-column: 3;
+    width: 128px;
+    transform: rotate(270deg);
+}
+.right {
+    grid-column: 4;
+    width: 128px;
+}
+
+.hold {
+    transform: rotate(0deg);
+    position: relative;
+    margin-top: -64px;
+}
+.hold img:nth-child(2) {
+    margin-top: -6px;
+}
+
