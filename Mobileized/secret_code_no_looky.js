@@ -51,7 +51,7 @@ const charE = {
 const charF = {
     src: "chars/F.png",
     adj: [
-        "helpless","useless","monotone","childlike","debatable","undivided","individual","hesitating","gravitating","proportional","breathtaking","exploitative","dehumanising","hypothesised","misenterpreted","incapacitated","regurgitating","institutionalized","unconstitutional"
+        "helpless","useless","monotone","childlike","debatable","undivided","individual","hesitating","gravitating","proportional","breathtaking","exploitative","hypothesised","misenterpreted","incapacitated","regurgitating","institutionalized","unconstitutional"
     ],
     noun: [
         "wildlife","basilisk","interpreter","physicist","brewery","synonym","tenement","storeroom","pessimist","subdivider","limitation","obtuseness","hostility","aromaticity"
