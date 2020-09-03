@@ -1,0 +1,77 @@
+canvas {
+    border: 3px solid black;
+    border-radius: 20px;
+}
+
+#display, #button-area {
+    display: flex;
+    justify-content: center;
+}
+
+p, h2 {
+    text-align: center;
+    width: 100%;
+    display: block;
+}
+p {
+    font-size: 1.5em;
+}
+h2 {
+    font-size: 2em;
+}
+
+#text {
+    padding-top: 20px;
+}
+button {
+    font-size: 2em;
+    border: none;
+    background-color: darkslategray;
+    color: whitesmoke;
+    margin-top: 20px;
+    border-radius: 10%;
+}
+
+h1 {
+    width: 60%;
+    margin: 0% 20%;
+    padding: 30px 0;
+    text-align: center;
+    font-weight: bold;
+    background-color: gray;
+}
+#game {
+    background-color: lightgray;
+    margin: 0% 20%;
+    padding-bottom: 50px;
+    min-height: 100vh;
+}
+
+#break {
+    height: 80px;
+    border-bottom: 1px dashed gray;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+#words-table p {
+    font-style: italic;
+    text-align: center;
+    color: rgb(59, 59, 59);
+}
+table {
+    width: 100%;
+    padding: 0 50px;
+}
+td {
+    text-align: center;
+    padding: 10px;   
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: darkslategray;
+    
+}

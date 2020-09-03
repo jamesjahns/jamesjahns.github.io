@@ -1,0 +1,62 @@
+table {
+    border-collapse: collapse;
+}
+
+thead {
+    border-bottom: 1px solid black;
+}
+
+#clues tr td:nth-child(2) {
+    padding-right: 30px;
+}
+
+body {
+    background-color: gray;
+    margin: 0;
+}
+
+#content {
+    background-color: white;
+    width: 80vw;
+    margin-left: 10vw;
+    font-family: 'Open Sans', sans-serif;
+}
+h1 {
+    margin: 0;
+    padding: 30px;
+    margin-bottom: 60px;
+    font-size: 3em;
+    text-align: center;
+    border-bottom: 1px solid lightgray;
+}
+#clues, #sudokus {
+    display: flex;
+    justify-content: center;
+}
+
+#sudokus table {
+    margin: 60px;
+}
+
+#sudokus tr {
+    text-align: left;
+    vertical-align: top;
+}
+#sudokus td {
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+}
+
+#sudokus td:first-child {
+    border-left: 3px solid black;;
+}
+#sudokus td:nth-child(3n) {
+    border-right: 3px solid black;
+}
+#sudokus tr:first-child {
+    border-top: 3px solid black;;
+}
+#sudokus tr:nth-child(3n) {
+    border-bottom: 3px solid black;
+}

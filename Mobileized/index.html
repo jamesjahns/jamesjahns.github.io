@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Mobileized</title>
+
+  <link href="puzz_style.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet"> 
+</head>
+
+<body>
+  <h1>
+    Mobileized
+  </h1>
+  <div id="game">
+    <div id="text">
+      <p id="blurb"> </p>
+      <h2 id="name"></h2>
+    </div>
+    <div id="display">
+      <canvas id="canvas" width="200" height="300"></canvas>
+      <img style="display: none; " id="rolling" src="wow_what_could_it_be_oh_boy.gif"></img>
+    </div> 
+    <div id="button-area">
+      <button id="reroll" onclick="reroll()">Reroll</button>
+    </div>
+    <audio id="opening" src="zelda-chest-opening-pls-dont-sue-me-nintendo.wav"></audio>
+    <div id="break"></div>
+    <div id="words-table">
+      <p>So many choices... which ones should I take?</p>
+      <h2>G</h2>
+      <table>
+        <tr>
+          <td>CAPRICE</td><td>NATURAL</td><td>DRIZZLE</td><td>KIDNEYS</td><td>TOURIST</td><td>CURRIED</td><td>TROUBLE</td>
+        </tr>
+        <tr>
+          <td>PATTERN</td><td>ORBITER</td><td>OSTRICH</td><td>MISLEAD</td><td>DEFACED</td><td>TWINKLE</td><td>PRECISE</td>
+        </tr>
+        <tr>
+          <td>GREYISH</td><td>DYNASTY</td><td>INHUMAN</td><td>EXTREME</td><td>JANITOR</td><td>OUTCAST</td><td>ENABLED</td>
+        </tr>
+        <tr>
+          <td>JUICIER</td><td>ELLIPSE</td><td>SOLVING</td><td>CRICKET</td><td>STELLAR</td><td>EUTOPIA</td><td>JOYLESS</td>
+        </tr>
+        <tr>
+          <td>MILKING</td><td>SUNSPOT</td><td>MERMAID</td><td>HERRING</td><td>GIMMICK</td><td>THUNDER</td><td>KNIFING</td>
+        </tr>
+        <tr>
+          <td>PURSUED</td><td>NAMETAG</td><td>EARWIGS</td><td>KNAVISH</td><td>DELIGHT</td><td>NURSERY</td><td>DRAGONS</td>
+        </tr>
+        <tr>
+          <td>SHINING</td><td>GUMSHOE</td><td>NOODLES</td><td>OCTAVES</td><td>SMOTHER</td><td>TYRANNY</td><td>ORCHARD</td>
+        </tr>
+      </table>
+      <h2>M</h2>
+    </div>
+  </div>
+
+</body>
+<script src="crop_and_draw.js"></script>
+</html>
