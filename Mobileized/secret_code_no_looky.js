@@ -31,10 +31,10 @@ const charC = {
 const charD = {
     src: "chars/D.png",
     adj: [
-        "cabbaged","dead","gaffed","effaced","beefed","egged","bagged","ebbed","edged","bad","deaf","added","cadged","faced","faded","gagged","beaded"
+        "peabrained","abrasive","Tobagonian","signature","somewhat","baronial","tangible","eligible","fungible","weedless","gloomy","unowned","gulping","serioludicrous","microtomic","protomorphic","endurant","cloddish"
     ],
     noun: [
-        "cage","ace","facade","egg","babe","bee","adage","badge","cafe","bead","bed","cab"
+        "labrador","timewaster","Bartholomew","crimewriter","macaroni","Sharon","parasite","parasailer","parasol","cherubim"
     ]
 }
 
