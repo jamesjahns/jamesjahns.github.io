@@ -23,6 +23,12 @@ body {
     font-family: 'Open Sans', sans-serif;
     padding-bottom: 10vh;
 }
+#flavor {
+    font-style: italic;
+    color: gray;
+    padding-bottom: 30px;
+    border-bottom: 1px solid lightgray;
+}
 h1 {
     margin: 0;
     padding: 30px;
