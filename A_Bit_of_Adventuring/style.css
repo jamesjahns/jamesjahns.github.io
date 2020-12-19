@@ -1,0 +1,98 @@
+body {
+    font-family: monospace;
+    background-color: #333333;
+    color: lightsteelblue;
+    overflow: hidden;
+}
+
+#description {
+    height: 40vh;
+    padding-top: 100px;
+    margin-left: 16em;
+}
+#description div {
+    margin-left: 6em;
+    color: whitesmoke;
+}
+@keyframes fadein {
+    from { opacity: 0;}
+    to { opacity: 1;}
+}
+
+p {
+    font-size: 1.5em;
+    margin-left: 5vw;
+    animation: fadein 0.5s ease-in 0s;
+    width: 70vw;
+}
+
+#movement {
+    font-size: 5em;
+}
+#movement > div {
+    
+    text-align: center;
+}
+
+a {
+    text-decoration: none; 
+    color: lightskyblue;
+}
+
+
+a:visited {
+    color: lightskyblue;
+}
+
+.non-selectable {
+    color: #555555;
+}
+
+@keyframes begin {
+    0% {opacity: 0;} 
+    50% { opacity: 0;}
+    100% { opacity: 1;}
+}
+
+#begin {
+    font-size: 3em;
+    margin-left: 20vw;
+    color: rgb(81, 104, 207);
+    animation: begin 2s ease-in;
+}
+
+#header {
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+#outro {
+    float: right;
+}
+
+#minimap {
+    top: 10em;
+    left:-3.5em;
+    position: absolute;
+    font-size: 1.5em;
+}
+#minimap p {
+    animation: none;
+    margin-top: -0.65em;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+    text-align: center;
+}
+
+#minimap p:nth-of-type(1) {
+    margin-top: 0;
+}
+
+.center {
+    text-align: center;
+}
+
+.transposed {
+    transform: rotate(90deg) rotateX(180deg);
+}
